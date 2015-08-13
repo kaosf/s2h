@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 's2h'
+
+include S2h
+
+puts convert ARGV[0].to_i
